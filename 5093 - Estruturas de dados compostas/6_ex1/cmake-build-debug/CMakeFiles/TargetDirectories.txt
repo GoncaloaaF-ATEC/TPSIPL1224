@@ -1,0 +1,3 @@
+/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/6_ex1/cmake-build-debug/CMakeFiles/6_ex1.dir
+/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/6_ex1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/6_ex1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

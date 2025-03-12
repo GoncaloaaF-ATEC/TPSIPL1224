@@ -17,15 +17,15 @@
  *
  */
 
-void olaMundo();
-void tabuada(int num);
-void tabuada2(int num, int max);
 
+void tabuada(int num);
+void olaMundo();
 /*
  * 1 - True
  * 0 - False
  */
 int validaData(int dia, int mes, int ano);
+void tabuada2(int num, int max);
 
 /*
  *
@@ -98,21 +98,24 @@ int main() {
     printf("data(dd-mm-aaa): ");
     scanf("%d-%d-%d", &a, &b, &c);
 
+
+
+
     int valData = validaData(a, b, c);
 
     if (valData == 1) {
-        // print data
-        
+        printf("%d-%d-%d\n", a, b, c);
+
     }else {
 
-        // Erro
+        printf("data invalida\n");
     }
 
 
-    printf("a: %d, b: %d, c: %d\n", a, b, c);
+   // printf("a: %d, b: %d, c: %d\n", a, b, c);
     printf("----------------------\n");
 
-    printf("%d", 2 > 3);
+
 
     return 0;
 }
@@ -130,7 +133,6 @@ void tabuada(int num) {
     }
 }
 
-
 void tabuada2(int num, int max) {
 
     printf("Tabuada do %d ate %d x %d\n", num, num, max);
@@ -143,6 +145,34 @@ void tabuada2(int num, int max) {
 }
 
 int validaData(int dia, int mes, int ano) {
+    /*
+     *  regras validação
+     * todos os meses podem ter de 1 a 30 dias
+     * um ano tem 12 meses
+     * nao pode haver um ano inferior a 0
+     */
+
+    // ver se o dia e invalido
+
+    if (dia < 1 || dia > 30 || mes < 1 || mes > 12 || ano < 1) {
+        return 0;
+    }
+
+    /*
+
+     if (dia < 1 || dia > 30) {
+        return 0;
+    }
+
+    if (mes < 1 || mes > 12) {
+        return 0;
+    }
+    if (ano < 0) {
+        return 0;
+    }
+
+*/
+    return 1;
 
 
 }
