@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 float somar(float a, float b);
 float subtracao(float a, float b);
 float multiplicacao(float a, float b);
@@ -11,6 +10,7 @@ void execute(int op);
 //faça uma calculadora simples
 
 int main(void) {
+
     int op;
 
     menu();
