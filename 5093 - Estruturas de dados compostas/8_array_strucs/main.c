@@ -16,6 +16,11 @@ typedef struct Questao{
     int nivel;
     int resposta; // 0 - false, 1- true
 } Questao;
+void showInfos(Aluno listaAlunos[], int size);
+void addAluno(Aluno lista[], int pos);
+
+//TODO: func findByName onde deve procurar na lista um aluno, se nao existir devlva um Aluno sem conteudo
+Aluno findByName(Aluno lista[], int listLen, char nome[]);
 
 int main(void) {
 
@@ -26,22 +31,30 @@ int main(void) {
 
     // refazer com inputs do utilizador
    for(int i = 0; i < nAlunos; i++ ){
-
-       char nome[nomeSize] = "Gonçalo";
-       int idade = 28;
-       char turma[turmaSize] = "TPSI";
-
-        Aluno al;
-
-       strcpy(al.nome, nome);
-        al.idade = idade;
-       strcpy(al.turma, turma);
-
-       listaAlunos[i] = al;
-
+       addAluno(listaAlunos, i);
    }
 
-    for(int i = 0; i < nAlunos; i++ ){
+
+    showInfos(listaAlunos, nAlunos);
+
+    getchar();
+    int s = sizeof(listaAlunos);
+    printf("lista: %d", s);
+
+    getchar();
+    int a = sizeof(Aluno);
+    printf("Aluno %d", a);
+
+    getchar();
+    int len_lista = sizeof(listaAlunos)/ sizeof(listaAlunos[0]);
+    printf("len da lista: %d", len_lista);
+    return 0;
+
+}
+
+void showInfos(Aluno listaAlunos[], int size){
+
+    for(int i = 0; i < size; i++ ){
 
         printf("%2d: nome:%s\tidade:%d\tturma:%s\n", i+1,
                listaAlunos[i].nome,
@@ -49,5 +62,23 @@ int main(void) {
                listaAlunos[i].turma);
     }
 
-    return 0;
+}
+
+
+void addAluno(Aluno lista[], int pos){
+
+
+    char nome[nomeSize] = "Gonçalo";
+    int idade = 28;
+    char turma[turmaSize] = "TPSI";
+
+    Aluno al;
+
+    strcpy(al.nome, nome);
+    al.idade = idade;
+    strcpy(al.turma, turma);
+
+    lista[pos] = al;
+
+
 }

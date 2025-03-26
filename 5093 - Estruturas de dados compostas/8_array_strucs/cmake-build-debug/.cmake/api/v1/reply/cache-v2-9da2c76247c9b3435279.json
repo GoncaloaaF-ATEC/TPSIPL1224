@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/array_strucs/cmake-build-debug"
+			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/8_array_strucs/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/array_strucs/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/8_array_strucs/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/array_strucs"
+			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/8_array_strucs"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1031,7 +1031,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/array_strucs/cmake-build-debug"
+			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/8_array_strucs/cmake-build-debug"
 		},
 		{
 			"name" : "array_strucs_IS_TOP_LEVEL",
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/array_strucs"
+			"value" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/8_array_strucs"
 		}
 	],
 	"kind" : "cache",

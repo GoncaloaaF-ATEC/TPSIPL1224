@@ -1,4 +1,4 @@
-# Install script for directory: /Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/array_strucs
+# Install script for directory: /Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/8_array_strucs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/array_strucs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/8_array_strucs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
