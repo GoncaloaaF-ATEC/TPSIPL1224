@@ -73,7 +73,8 @@ int main(void) {
     fgets(clt.morada.rua, sizeof(clt.morada.rua), stdin);
 
     removerChar(clt.morada.rua, "\n");
-    
+
+
     printf("porta: ");
     fgets(clt.morada.porta, sizeof(clt.morada.porta), stdin);
     removerChar(clt.morada.porta, "\n");
