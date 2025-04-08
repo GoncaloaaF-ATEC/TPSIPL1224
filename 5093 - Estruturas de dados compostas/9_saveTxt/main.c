@@ -11,9 +11,6 @@ int main(void) {
      *  w - Escrita -> apaga e voltar a escrever
      *  r - Leitura
      *  a - append - add ao file
-     *
-     *
-     *
      */
 
     char myTxt[250];
