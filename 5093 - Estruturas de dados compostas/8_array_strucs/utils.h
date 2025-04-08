@@ -7,13 +7,13 @@
 #define nAlunos 20
 #define nomeSize 50
 #define turmaSize 20
-
-
 typedef struct Aluno{
-    char nome[nomeSize];
-    int idade;
-    char turma[turmaSize];
+char nome[nomeSize];
+int idade;
+char turma[turmaSize];
 } Aluno;
+
+
 
 typedef struct Questao{
     char txt[100];

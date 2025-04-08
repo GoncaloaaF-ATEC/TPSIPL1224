@@ -3,6 +3,17 @@
 #include <string.h>
 
 /*
+ *                      p1
+ *
+ *       p1.1                            p1.2
+ *  p1.1.1   p1.1.2          p1.2.1   p1.2.2    p1.2.3
+ *
+ *
+ *
+ */
+
+
+/*
  *
  * CustomerID
  * CustomerName
@@ -61,6 +72,15 @@ typedef struct cliente{
 void removerChar(char str[], char c[]);
 
 int main(void) {
+
+
+
+    int i = strcmp("aaab", "a"); // -> -1
+    printf("a-b 2: %d\n", i);
+
+    int j = strcmp("aaab", "aaaa");  // -> 1
+    printf("b-a 2: %d\n", j);
+
 
     Cliente clt;
 

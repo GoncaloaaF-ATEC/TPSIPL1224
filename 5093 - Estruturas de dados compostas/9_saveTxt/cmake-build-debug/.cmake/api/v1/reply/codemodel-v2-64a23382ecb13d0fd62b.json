@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "9_saveTxt",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "9_saveTxt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9_saveTxt-Debug-92ec39cfc2df32136c24.json",
+					"name" : "9_saveTxt",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/9_saveTxt/cmake-build-debug",
+		"source" : "/Users/goncalof/repos/ATEC/TPSIPL1224/5093 - Estruturas de dados compostas/9_saveTxt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
